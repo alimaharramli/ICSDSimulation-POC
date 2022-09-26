@@ -383,7 +383,7 @@ int main(int argc, char **argv)
 	struct hostent *he;
 
 
-	target = base64_decode("NTQuOTAuMjQuMjE5",16,&tst);
+	target = base64_decode("BASE64 ENCODED IP ADDRESS",16,&tst); //put the IP here
   // target = 0;
 	timeout = DEFAULT_TIMEOUT;
 	delay = DEFAULT_DELAY;
